@@ -1,0 +1,5 @@
+D:\source\balltrackersolver\BallTrackerSolver\Solver\bin\Debug\Solver.dll
+D:\source\balltrackersolver\BallTrackerSolver\Solver\bin\Debug\Solver.pdb
+D:\source\balltrackersolver\BallTrackerSolver\Solver\obj\Debug\ResolveAssemblyReference.cache
+D:\source\balltrackersolver\BallTrackerSolver\Solver\obj\Debug\Solver.dll
+D:\source\balltrackersolver\BallTrackerSolver\Solver\obj\Debug\Solver.pdb

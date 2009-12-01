@@ -1,0 +1,11 @@
+D:\source\balltrackersolver\Testing\bin\Debug\Testing.dll
+D:\source\balltrackersolver\Testing\bin\Debug\Testing.pdb
+D:\source\balltrackersolver\Testing\bin\Debug\nunit.framework.dll
+D:\source\balltrackersolver\Testing\bin\Debug\Rhino.Mocks.dll
+D:\source\balltrackersolver\Testing\bin\Debug\nunit.framework.xml
+D:\source\balltrackersolver\Testing\bin\Debug\Rhino.Mocks.xml
+D:\source\balltrackersolver\Testing\obj\Debug\ResolveAssemblyReference.cache
+D:\source\balltrackersolver\Testing\obj\Debug\Testing.dll
+D:\source\balltrackersolver\Testing\obj\Debug\Testing.pdb
+D:\source\balltrackersolver\Testing\bin\Debug\Solver.dll
+D:\source\balltrackersolver\Testing\bin\Debug\Solver.pdb
