@@ -101,7 +101,10 @@ namespace Solver.Models
                 for (var i = _ball.Y; i >= 0; i--)
                 {
                     if (_blockGrid[_ball.X, i] != null)
+                    {
                         result = new Point(_ball.X, i);
+                        break;
+                    }
                 }
             }
 
@@ -110,7 +113,10 @@ namespace Solver.Models
                 for (var i = _ball.Y; i < _height; i++)
                 {
                     if (_blockGrid[_ball.X, i] != null)
+                    {
                         result = new Point(_ball.X, i);
+                        break;
+                    }
                 }
             }
 
@@ -119,7 +125,10 @@ namespace Solver.Models
                 for (var i = _ball.X; i >= 0; i--)
                 {
                     if (_blockGrid[i, _ball.Y] != null)
+                    {
                         result = new Point(i, _ball.Y);
+                        break;
+                    }
                 }
             }
 
@@ -128,7 +137,10 @@ namespace Solver.Models
                 for (var i = _ball.X; i < _width; i++)
                 {
                     if (_blockGrid[i, _ball.Y] != null)
+                    {
                         result = new Point(i, _ball.Y);
+                        break;
+                    }
                 }
             }
 
