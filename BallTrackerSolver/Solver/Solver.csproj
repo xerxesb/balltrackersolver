@@ -45,6 +45,7 @@
     <Compile Include="Models\Brick.cs" />
     <Compile Include="Models\Direction.cs" />
     <Compile Include="Models\Grid.cs" />
+    <Compile Include="Models\Vector.cs" />
     <Compile Include="Services\GameInitializer.cs" />
     <Compile Include="Services\NextDirectionSetFinder.cs" />
     <Compile Include="Services\Solver.cs" />

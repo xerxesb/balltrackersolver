@@ -67,6 +67,18 @@ namespace Testing.TestGrids
             return grid;
         }
 
+        public static Grid GridWithInfinateLoop()
+        {
+            var grid = new Grid(5, 5);
+            grid.AddBrick(1, 2);
+            grid.AddBrick(2, 5);
+            grid.AddBrick(4, 1);
+            grid.AddBrick(5, 4);
+
+            grid.SetBall(2, 2);
+            return grid;
+        }
+
         public static Grid TheRealTest()
         {
             var grid = new Grid(18, 22);

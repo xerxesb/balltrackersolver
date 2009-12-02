@@ -8,16 +8,30 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="4B4AE847-1B9E-4AF6-8193-5E029088C7AE/f:SolverTests.cs" caret="142" fromTop="6" />
-      <File id="4FF95160-D1AA-44EC-B78C-5142BAC9E2C6/f:Solver.cs" caret="143" fromTop="7" />
       <File id="4FF95160-D1AA-44EC-B78C-5142BAC9E2C6/d:Models/f:Brick.cs" caret="77" fromTop="5" />
       <File id="4B4AE847-1B9E-4AF6-8193-5E029088C7AE/d:Models/f:BrickTests.cs" caret="97" fromTop="3" />
+      <File id="4B4AE847-1B9E-4AF6-8193-5E029088C7AE/d:TestGrids/f:Sample2DimensionalGridTestBase.cs" caret="0" fromTop="0" />
+      <File id="4B4AE847-1B9E-4AF6-8193-5E029088C7AE/d:TestGrids/f:TestGridGenerator.cs" caret="2361" fromTop="41" />
+      <File id="4B4AE847-1B9E-4AF6-8193-5E029088C7AE/f:SolverTests.cs" caret="812" fromTop="6" />
+      <File id="4FF95160-D1AA-44EC-B78C-5142BAC9E2C6/d:Services/f:NextDirectionSetFinder.cs" caret="516" fromTop="14" />
+      <File id="4FF95160-D1AA-44EC-B78C-5142BAC9E2C6/d:Models/f:Grid.cs" caret="486" fromTop="14" />
+      <File id="4FF95160-D1AA-44EC-B78C-5142BAC9E2C6/d:Models/f:Vector.cs" caret="772" fromTop="24" />
     </RecentFiles>
     <RecentEdits>
       <File id="4B4AE847-1B9E-4AF6-8193-5E029088C7AE/f:SolverTests.cs" caret="142" fromTop="6" />
-      <File id="4FF95160-D1AA-44EC-B78C-5142BAC9E2C6/f:Solver.cs" caret="153" fromTop="7" />
       <File id="4FF95160-D1AA-44EC-B78C-5142BAC9E2C6/d:Models/f:Brick.cs" caret="101" fromTop="5" />
       <File id="4B4AE847-1B9E-4AF6-8193-5E029088C7AE/d:Models/f:BrickTests.cs" caret="71" fromTop="3" />
+      <File id="4B4AE847-1B9E-4AF6-8193-5E029088C7AE/f:SolverTests.cs" caret="1691" fromTop="27" />
+      <File id="4B4AE847-1B9E-4AF6-8193-5E029088C7AE/d:TestGrids/f:TestGridGenerator.cs" caret="2361" fromTop="41" />
+      <File id="4B4AE847-1B9E-4AF6-8193-5E029088C7AE/f:SolverTests.cs" caret="1225" fromTop="21" />
+      <File id="4B4AE847-1B9E-4AF6-8193-5E029088C7AE/f:SolverTests.cs" caret="1396" fromTop="27" />
+      <File id="4FF95160-D1AA-44EC-B78C-5142BAC9E2C6/d:Models/f:Grid.cs" caret="565" fromTop="14" />
+      <File id="4FF95160-D1AA-44EC-B78C-5142BAC9E2C6/d:Models/f:Vector.cs" caret="1121" fromTop="16" />
+      <File id="4FF95160-D1AA-44EC-B78C-5142BAC9E2C6/d:Models/f:Vector.cs" caret="204" fromTop="6" />
+      <File id="4FF95160-D1AA-44EC-B78C-5142BAC9E2C6/d:Models/f:Vector.cs" caret="1011" fromTop="16" />
+      <File id="4FF95160-D1AA-44EC-B78C-5142BAC9E2C6/d:Models/f:Vector.cs" caret="937" fromTop="33" />
+      <File id="4FF95160-D1AA-44EC-B78C-5142BAC9E2C6/d:Models/f:Vector.cs" caret="607" fromTop="22" />
+      <File id="4FF95160-D1AA-44EC-B78C-5142BAC9E2C6/d:Models/f:Vector.cs" caret="924" fromTop="29" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -30,4 +44,41 @@
     <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.2\bin\net-2.0\</NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="1" />
+      <Item value="static" priority="0" />
+      <Item value="Grid`0" priority="1" />
+      <Item value="var" priority="0" />
+      <Item value="new" priority="0" />
+      <Item value="grid" priority="2" />
+      <Item value="return" priority="3" />
+      <Item value="TestFixture" priority="0" />
+      <Item value="ctor" priority="0" />
+      <Item value="Direction`0" priority="0" />
+      <Item value="equals" priority="1" />
+      <Item value="Vector`0" priority="0" />
+      <Item value="this" priority="0" />
+      <Item value="compareTo" priority="1" />
+      <Item value="DirectionArrived" priority="1" />
+      <Item value="DestinationPoint" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Solver.Models.Grid">
+      <Item value="AddBrick`0" priority="0" />
+      <Item value="SetBall`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Testing.TestGrids.TestGridGenerator">
+      <Item value="GridWithInfinateLoop`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Solver.Models.Vector">
+      <Item value="DestinationPoint" priority="1" />
+      <Item value="DirectionArrived" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Solver.Models.Direction">
+      <Item value="GetHashCode`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Point">
+      <Item value="GetHashCode`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>
