@@ -12,8 +12,8 @@ namespace Solver
 
             foreach (var direction in Enum.GetValues(typeof(Direction)))
             {
-                var nextBlockExists = grid.NonAdjacentBlockExistsInDirection((Direction) direction)
-                                      && !grid.AlreadyMovedInThisDirection((Direction) direction);
+                var nextBlockExists = grid.NonAdjacentBlockExistsInDirection((Direction) direction);
+//                                      && !grid.AlreadyMovedInThisDirection((Direction) direction);
                 if (nextBlockExists)
                 {
                     result.Add((Direction) direction);

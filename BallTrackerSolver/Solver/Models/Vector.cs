@@ -14,6 +14,21 @@ namespace Solver.Models
             _directionArrived = directionArrived;
         }
 
+        public override string ToString()
+        {
+            return String.Format("Move to position [{0}] by travelling [{1}]", _destinationPoint, _directionArrived);
+        }
+
+        public static bool operator ==(Vector lhs, Vector rhs)
+        {
+            return lhs.Equals(rhs);
+        }
+
+        public static bool operator !=(Vector lhs, Vector rhs)
+        {
+            return !lhs.Equals(rhs);
+        }
+
         public override bool Equals(object obj)
         {
             if (obj == null || GetType() != obj.GetType())

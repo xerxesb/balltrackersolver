@@ -92,7 +92,7 @@ namespace Solver.Models
 
         List<Point> alreadyVisitedLocations = new List<Point>();
 
-        private Point? FindNextBlockInDirection(Direction direction)
+        public Point? FindNextBlockInDirection(Direction direction)
         {
             Point? result = null;
 

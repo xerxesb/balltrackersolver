@@ -52,6 +52,7 @@
     <Compile Include="Models\BrickTests.cs" />
     <Compile Include="Models\GridTests.cs" />
     <Compile Include="Models\NextDirectionSetFinderTests.cs" />
+    <Compile Include="Models\VectorTests.cs" />
     <Compile Include="SolverTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestGrids\Sample2DimensionalGridTestBase.cs" />

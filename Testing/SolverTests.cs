@@ -61,7 +61,7 @@ namespace Testing
             public void CanSolve()
             {
                 var solver = new Solver.Solver(TestGridGenerator.TheRealTest());
-//                solver.SolveProblem();
+                solver.SolveProblem();
             }
         }
     }
